@@ -98,6 +98,11 @@ span {
   text-decoration: underline;
 }
 
+.mountain {
+  width: 25rem;
+  height: auto;
+}
+
 .top_right_cloud {
   position: absolute;
   right: 18.75rem;
