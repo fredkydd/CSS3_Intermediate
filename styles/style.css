@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", "Open-Sans" sans-serif;
+  font-family: "Montserrat", "Open-Sans", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
   color: #66bfbf;
@@ -113,12 +113,17 @@ span {
   left: 18.75rem;
 }
 
-hr {
+/* hr {
   color: #333;
-  width: 4%;
+  width: 70%;
+} */
+
+.hronmiddle {
   border-style: dotted none none;
   border-width: 0.3125rem;
   height: 0.125rem;
+  width: 5%;
+  color: #66bfbf;
 }
 
 .profile_pic {
@@ -159,8 +164,9 @@ hr {
 }
 
 .devgirl {
-  border-radius: 50%;
-  width: 12.5rem;
+  /* border-radius: 50%; */
+  /* height: 12.5rem; */
+  width: 18.75rem;
   float: left;
   margin-right: 1.875rem;
 }
