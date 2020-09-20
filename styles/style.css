@@ -137,14 +137,14 @@ span {
   border-radius: 50%;
   width: 12.5rem;
   float: left;
-  margin-right: 1.875rem;
+  margin: 0 1.875rem 1.875rem 0 ;
 }
 
 .chillies_png {
   border-radius: 50%;
   width: 12.5rem;
   float: right;
-  margin-left: 1.875rem;
+  margin: 0 0 1.875rem 1.875rem;
 }
 
 .skills_row {
@@ -163,14 +163,6 @@ span {
   margin: auto;
 }
 
-.devgirl {
-  border-radius: 50%;
-  /* height: 12.5rem; */
-  width: 12.5rem;
-  float: left;
-  margin-right: 1.875rem;
-}
-
 p {
   line-height: 2;
 }
@@ -181,12 +173,12 @@ p {
 }
 
 .btn {
-  background: #ff8a00;
-  background-image: -webkit-linear-gradient(to right, #ff8a00, #e52e71);
-  background-image: -moz-linear-gradient(to right, #ff8a00, #e52e71);
-  background-image: -ms-linear-gradient(to right, #ff8a00, #e52e71);
-  background-image: -o-linear-gradient(to right, #ff8a00, #e52e71);
-  background-image: linear-gradient(to right, #ff8a00, #e52e71);
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(to right, #11cdd4,#11999e);
+  background-image: -moz-linear-gradient(to right, #11cdd4,#11999e);
+  background-image: -ms-linear-gradient(to right, #11cdd4,#11999e);
+  background-image: -o-linear-gradient(to right, #11cdd4,#11999e);
+  background-image: linear-gradient(to right, #11cdd4,#11999e);
   -webkit-border-radius: 50;
   -moz-border-radius: 50;
   border-radius: 3.125rem;
@@ -197,13 +189,12 @@ p {
   text-decoration: none;
 }
 
-
 .btn:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(to right, #ff8a00, #e52e71);
-  border: 1px solid #f25d26 ;
+  background: -webkit-linear-gradient(to right, #11cdd4, #11999e);
+  border: 1px solid #11b8bf;
   text-decoration: none;
 }
 
@@ -237,6 +228,10 @@ a {
   padding: 0 1.875rem;
 }
 
+a:hover {
+  color: #eaf6f6;
+}
+
 .disabled {
   cursor: not-allowed;
   text-decoration: none;
@@ -244,5 +239,5 @@ a {
 
 .footer_info {
   color: #eaf6f6;
-  padding: 0.625rem 0;
+  padding: 0.625rem;
 }
